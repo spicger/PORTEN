@@ -7,7 +7,6 @@
 :root {
     --primary-font: 'PT+Sans', sans-serif;
     --secondary-font: 'Playfair+Display+SC', sans-serif;
-
 }
 
 /* GENERAL STYLES */
@@ -71,6 +70,9 @@ button {
 .header-upper-wrap {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    align-items: center;
 }
 
 .header-phone-wrap {
@@ -80,26 +82,89 @@ button {
 
 
 .header-number {
-    font: var(--primary-color);
+    font: var(--primary-font);
     font-size: 12px;
     font-weight: 400;
     color: gray;
     border-right: 1px solid gray;
+    padding-right: 10px;
 }
 
 .header-worktime {
-    font: var(--primary-color);
+    font: var(--primary-font);
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+
+.header-nmb {
+    font-family: var(--primary-font);
     font-size: 12px;
     font-weight: 400;
     color: gray;
 }
 
-.header-nmb {
-    font: var(--primary-color);
+.header-open-wrap {
+    display: flex;
+    align-items: center;
+}
+
+
+.enter-a {
+    font-family: var(--primary-font);
     font-size: 12px;
     font-weight: 400;
     color: gray;
+    margin-left: 10px;
 }
+
+.header-bottom-wrap {
+    background: #0F0F0F;
+    padding: 19px 0;
+
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.header-list {
+    display: flex;
+
+}
+
+
+.menu-toggle {
+    order: 1;
+    color: white;
+    font-size: 21px;
+}
+
+.header-link {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    transition:.5s;
+    padding: 31px 20px;
+}
+
+.header-link:hover {
+    background: #1F1F1F;
+
+}
+
+.header-img-wrap {
+    margin-left: 60px;
+    display: flex;
+    column-gap: 40px;
+}
+
 
 
 

@@ -58,7 +58,6 @@
     .sezon-wrapper {
         display: flex !important;
         flex-direction: column !important;
-        justify-content: start !important;
         align-items: center !important;
         row-gap: 20px !important;
     }
@@ -71,9 +70,20 @@
         margin-top: 30px;
     }
 
+    .left-boxxer {
+        margin-left: 0 !important;
+    }
+
     
 
 }
+
+@media (max-width: 1650px) {
+    .left-boxxer {
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+} 
 
 
 @media (max-width: 991px) {
@@ -108,6 +118,17 @@
     .header-nav {
         display: flex !important;
     }
+    .new-boxxer {
+        display: grid;
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+
+    .left-boxxer {
+        display: grid;
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+
+    
 
 
 }
@@ -129,6 +150,50 @@
     .header-worktime {
         border: 0 !important;
     }
+
+    .left-boxxer {
+        display: grid;
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+
+    .new-boxxer {
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+
+    .porten-box {
+        padding: 81px 51px !important;
+    }
+
+    .porten-text {
+        font-size: 15px !important;
+    }
+
+    .sezon-title {
+        font-size: 30px !important;
+    }
+
+    .sezon-text {
+        font-size: 11px !important;
+    }
+
+    .sezon-btn {
+        font-size: 15px !important;
+    } 
+
+    .new-title {
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .img-wrap {
+        display: flex;
+        justify-content: center;
+    }
+
 
 
     

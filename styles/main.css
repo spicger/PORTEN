@@ -27,14 +27,10 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--text-color);
+    background-color: blue;
     border-radius: .5rem;
-    transition: .3s;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background-color: var(--primary-color);
-}
 
 body {
     background-color: black;
@@ -150,7 +146,7 @@ button {
     font-size: 14px;
     font-weight: 400;
     color: white;
-    transition:.5s;
+    transition: .5s;
     padding: 31px 20px;
 }
 
@@ -166,6 +162,259 @@ button {
 }
 
 
+.porten {
+
+    background: url(../img/background-img.png);
+    height: 810px;
+}
 
 
 
+.porten-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.porten-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.porten-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid white;
+    padding: 93px 67px;
+}
+
+.porten-title {
+    font-family: var(--primary-font);
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.porten-img {
+    max-width: 185px;
+    width: 100%;
+    padding-bottom: 4px;
+}
+
+.porten-img2 {
+    max-width: 179px;
+    width: 100%;
+}
+
+.porten-text {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 80px;
+    text-align: center;
+
+
+}
+
+.sezon-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-title {
+    font-family: var(--secondary-font);
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 93px;
+
+}
+
+.left-boxxer {
+    display: flex;
+    column-gap: 50px;
+    margin-left: 80px;
+}
+
+.left-img-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.img-wrap {
+    background-color: #191B1C;
+    padding: 55px 22px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.left-subtitle {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    line-height: 21.09px;
+    text-align: left;
+    color: white;
+
+}
+
+.left-text {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: left;
+    color: #D0D0D0;
+
+
+}
+
+.sezon-right {
+    background: url(../img/background-img2.png);
+    height: 730px;
+    width: 880px;
+}
+
+.right-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.right-title {
+    font-family: var(--secondary-font);
+    font-size: 36px;
+    line-height: 42.19px;
+    color: white;
+
+
+}
+
+
+.sezon-button {
+    color: #FFFFFF;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 28px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+.sezon-left-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-right: 218px;
+
+}
+
+
+
+
+.sezon-title {
+    font-family: var(--primary-font);
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.img-wrapper2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sezon-text {
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 471px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 61px;
+
+}
+
+.sezon-btn-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.sezon-btn {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding: 12px 28px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+
+}
+
+.new {
+    margin-top: 120px;
+}
+
+
+
+.new-title-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-title {
+    font-family: var(--secondary-font);
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+
+}
+
+.new-boxxer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 23px;
+}
+
+
+.new-wrap {
+    background-color: #191B1C;
+    padding: 55px 22px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.new-subtitle {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    line-height: 21.09px;
+    text-align: left;
+    color: white;
+
+}
+
+.new-text {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: left;
+    color: #D0D0D0;
+
+
+}

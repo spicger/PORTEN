@@ -54,6 +54,47 @@
     }
 }
 
+@media (max-width: 1400px) {
+    .sezon-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: start !important;
+        align-items: center !important;
+        row-gap: 20px !important;
+    }
+
+    .sezon-left-wrap {
+        margin-right: 0px !important;
+    }
+
+    .sezon-right2 {
+        margin-top: 30px;
+    }
+
+    
+
+}
+
+
+@media (max-width: 991px) {
+
+    .new-boxxer {
+        grid-template-columns: repeat(3,1fr) !important;
+    }
+
+    .sezon-right {
+        
+    }
+
+    .sezon-right2 img {
+        width: 100% !important;
+
+    }
+
+}
+
+
+
 
 @media (max-width: 767px) {
     .header-link {

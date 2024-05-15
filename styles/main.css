@@ -275,6 +275,7 @@ button {
     padding: 55px 22px;
     margin-top: 50px;
     margin-bottom: 25px;
+    position: relative;
 }
 
 .left-subtitle {
@@ -284,6 +285,39 @@ button {
     text-align: left;
     color: white;
 
+}
+
+
+.img-wrap2 {
+    position: absolute;
+    top: 130px;
+    left: 61px;
+
+    
+    
+}
+
+.store-img {
+    display: none;   
+    transition: .5s;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    
+}
+
+
+.watch-pict {
+    transition: .5s;
+}
+
+.img-wrap:hover .img-wrap2 img {
+    display: block !important;
+}
+
+.img-wrap:hover .watch-pict {
+    filter: blur(1.5rem);
+    cursor: pointer;
 }
 
 .left-text {
@@ -433,15 +467,24 @@ button {
     position: relative;
 }
 
+
+
 .shop-wrap {
     position: absolute;
-    top: 0;
-    left: 50%;
+    top: 50%;
+
+    
+    
 }
 
 .shop-img {
-    display: none;
+    display: none; 
     transition: .5s;
+    height: 45px;
+    width: 45px;
+    top: 10px;
+    cursor: pointer;
+    
 }
 
 .shop-img:hover {
@@ -458,7 +501,9 @@ button {
 
 .new-wrap:hover .watch-mg {
     filter: blur(1.5rem);
+    cursor: pointer;
 }
+
 
 
 
@@ -524,12 +569,13 @@ button {
 
 .footer-upper {
     background: url(../img/footer-back.png) no-repeat center/cover;
-    height: 400px;
+    
 }
 
 .footer-upper-wrap {
     display: flex;
     padding-top: 80px;
+    padding-bottom: 95px;
 
 }
 
@@ -557,6 +603,7 @@ button {
     line-height: 21px;
     text-align: left;
     color: #FFFFFF;
+    width: 350px;
 
 }
 
@@ -575,9 +622,9 @@ button {
 }
 
 .footer-a-wrap {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 20px; 
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -616,6 +663,20 @@ button {
     line-height: 21px;
     text-align: left;
     color: #FFFFFF;
+}
+
+
+.footer-input {
+    width: 210px;
+    padding: 10px 0 10px 10px;
+    background: #FFFFFF66;
+    color: #FFFFFF;
+    
+
+}
+
+.footer-btn-wrap {
+    display: flex;
 }
 
 .primary-button {

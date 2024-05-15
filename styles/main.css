@@ -430,7 +430,45 @@ button {
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
+
+.shop-wrap {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.shop-img {
+    display: none;
+    transition: .5s;
+}
+
+.shop-img:hover {
+    display: flex !important;
+}
+
+.watch-mg {
+    transition: .5s;
+}
+
+.new-wrap:hover .shop-wrap img {
+    display: block;
+}
+
+.new-wrap:hover .watch-mg {
+    filter: blur(1.5rem);
+}
+
+
+
+
+
+
+
+
+
+
 
 .new-subtitle {
     font-family: var(--secondary-font);
@@ -491,12 +529,13 @@ button {
 
 .footer-upper-wrap {
     display: flex;
-    
+    padding-top: 80px;
+
 }
 
 .footer-text-box {
     margin-right: 31px;
-    
+
 }
 
 
@@ -537,7 +576,7 @@ button {
 
 .footer-a-wrap {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 
 }
@@ -547,7 +586,7 @@ button {
     flex-direction: column;
     row-gap: 40px;
 }
-    
+
 
 
 
@@ -584,7 +623,6 @@ button {
     color: #FFFFFF;
     background: #FFFFFF66;
     border: 0;
-
 }
 
 .secondary-button {
@@ -598,6 +636,33 @@ button {
     background: #0F0F0F;
     padding: 10px 20px;
     border: 0;
+}
+
+.mail-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0 17px 0;
+}
+
+.mail-a {
+    font-family: var(--primary-font);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.53px;
+    text-align: left;
+    color: #D0D0D0;
+
+
+}
+
+.mail-b {
+    font-family: var(--primary-font);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.53px;
+    text-align: right;
+    color: #D0D0D0;
+    text-decoration: dashed !important;
 
 
 }

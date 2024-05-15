@@ -73,9 +73,6 @@
     .left-boxxer {
         margin-left: 0 !important;
     }
-    .coco-img-wrap {
-        overflow-x: scroll;
-    }
 
     
 
@@ -85,6 +82,22 @@
     .footer-upper-wrap {
         flex-wrap: wrap;
     }
+
+    .footer-upper {
+        height: 900px !important;
+    }
+
+    .footer-shop {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    
+    .coco-img-wrap {
+        overflow-x: scroll;
+    }
+
+    
 
     
 }
@@ -113,7 +126,7 @@
 @media (max-width: 767px) {
     
     .header-list {
-        position: fixed !important;
+        position: fixed !important; 
         flex-direction: column !important;
         padding: 30px 20px !important;
         row-gap: 20px !important;
@@ -136,7 +149,7 @@
     }
 
     .header-nav {
-        display: flex !important;
+        display: flex !important; 
     }
     .new-boxxer {
         display: grid;
@@ -146,11 +159,13 @@
     .left-boxxer {
         display: grid;
         grid-template-columns: repeat(2,1fr) !important;
+        align-items: center;
     }
-
-    
-
-
+    .img-wrap {
+        display: flex !important;
+        justify-content: center;
+        
+    }
 }
 
 @media (max-width: 575px) {
@@ -185,7 +200,7 @@
     }
 
     .porten-text {
-        font-size: 15px !important;
+        font-size: 12px !important;
     }
 
     .sezon-title {
@@ -217,4 +232,63 @@
     .right-title {
         font-size: 33px !important;
     }
+
+    .footer-text-box {
+        margin-right: 0 !important;
+    }
+
+    .footer-title,
+    .footer-text,
+    .footer-title2,
+    .footer-title3,
+    .footer-text2 {
+        text-align: center !important;
+    }
+
+    .footer-text,
+    .footer-text2  {
+        font-size: 10px !important;
+    }
+
+    .footer-title,
+    .footer-title3,
+    .footer-title2 {
+        font-size: 20px !important;
+    }
+
+    
+
+    .footer-a-wrap {
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .footer-shop {
+        margin-right: 0 !important;
+    }
+
+    .footer-upper-wrap {
+        display: block !important;
+        row-gap: 30px;
+    }
+
+    .footer-shop {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer-upper {
+        height: 900px !important;
+    }
+    .mail-wrap {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: start !important;
+    }
+
+
+
+    
+
 } 
